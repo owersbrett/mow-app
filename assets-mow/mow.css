@@ -1,0 +1,84 @@
+
+
+body {
+    margin: 0;
+}
+
+.screen-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 8 1;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background-color: #8D8077;
+    color: #FFF0E7;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    width: 36px;
+}
+
+.logo-2 {
+    display: flex;
+    justify-content: center;
+    height: 18px;
+}
+
+.navbar, .navbar-2{
+    display: flex;
+    padding: 12px;
+    background-color: #FFF0E7;
+}
+
+.navbar-2{
+    padding: 24px;
+}
+
+.navbar-2{
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+}
+
+.navbar .navbar-item {
+    display: flex;
+    flex-grow: 1;
+    flex: 1 1 0;
+}
+
+.navbar .navbar-item:nth-child(2) {
+    justify-content: center;
+}
+
+.navbar-2 .navbar-item{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    /* border: 1px solid green; */
+}
+
+
+
+.hamburger {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.account {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
